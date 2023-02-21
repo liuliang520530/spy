@@ -1,0 +1,56 @@
+Aauthentication: 26147707250949558-4EE807A80AE1D698523C64EE659424CD033DE338D3BFA7E2CDFF47DF6A6476EAA9D323E54B0AB9737B422799E22874A998B8A2D257A33979A9A78CD5F3E3C4D109EB3F271BB089111A21E137352B0750E45F7FA2AE0F50FFE4AF78F62C606D6D0C50B2AFA153090227D75F98F27867E61512B6E204D31219004FC94EE71EFCAC-
+AutoRestart: ''
+Container_Wait: 3
+LogEnable: true
+OverdueTime: 3600
+QingLong:
+- Client_ID: u5-U-8YHh6cr
+  Client_Secret: D_fmtb02Jc5cZWlM1E_HHsND
+  url: http://82.157.243.111:5703
+RestartByAuthFailTimes: '0'
+SpyEnable: 开
+Telegram:
+  Log_En: true
+  TgLost: ''
+  Welcome: 亲爱的,我来啦~~
+  api_hash: 2eeb24767a81d096e500e4f463f36794
+  api_id: 25459825
+  forward_channel_id: ''
+  forward_keyword: []
+  forward_user_id: []
+  forward_user_name: []
+  listen_CH:
+  - -1001670294604
+  log_id: '@liuliangzheng'
+  master_id:
+  - 2117964461
+  mtproto: ''
+  proxy_http: ''
+  proxy_ip: 
+  proxy_password: ''
+  proxy_port: 
+  proxy_type: ''
+  proxy_username: ''
+Use_SillyGirl: false
+WaitTime: 10
+authtype: new
+auto_backup: true
+auto_backup_size: 5000
+blackList: []
+branch: master
+down_proxy: ''
+js_config:
+- Container:
+  - []
+  Env: jd_cjzd
+  KeyWord:
+  - - 频道1变量A1
+  - - 频道2变量A2
+  Name: cj组队
+  Script: jd_team60.js
+  TimeOut: 0
+  Wait: 3
+logmode: 0
+rss_urls:
+  Faker: https://github.com/xieshang/AutoSpy/raw/master/config/Faker.spy
+update_url: https://raw.githubusercontent.com/xieshang/AutoSpy/master/updatelist.json
