@@ -5,6 +5,6 @@ RUN bash <(curl -s -L https://raw.githubusercontent.com/xieshang/AutoSpy/master/
 
 USER root
 
-CMD['python3','auto_spy_bot.py']
+CMD ['python3','auto_spy_bot.py']
 
 
