@@ -3,4 +3,4 @@ services:
   autospy:        # docker-compase控制的name
     container_name: auto_spy  # 容器名字
     restart: always # 自启
-  build: .
+    build: .
