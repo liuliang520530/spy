@@ -1,0 +1,6 @@
+version: '3'  # 版本为123，已docker engine为例，一般为3 docker1.10之前为1
+services: 
+  autospy:        # docker-compase控制的name
+    container_name: auto_spy  # 容器名字
+    image: xieshang1111/auto_spy:x86 # 容器镜像
+    restart: always # 自启
