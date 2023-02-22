@@ -5,4 +5,4 @@ services:
     restart: always # 自启
     build: .
     ports:
-      - "80:22"
+      - "80:80"
