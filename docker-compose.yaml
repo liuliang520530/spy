@@ -4,3 +4,5 @@ services:
     container_name: auto_spy  # 容器名字
     restart: always # 自启
     build: .
+    ports:
+      - "80:22"
